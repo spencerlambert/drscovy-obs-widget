@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dr Scovy — Raid Vault</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=titles" />
+  </head>
+  <body>
+    <main class="page">
+      <section class="panel vault" aria-label="Recent raid vault unlocks">
+        <h1>Raid Token Vault</h1>
+        <ul id="raids"></ul>
+      </section>
+
+      <section class="panel earners" aria-label="Top token earners last four hours">
+        <h1>Top Token Earners <span>4h</span></h1>
+        <ol id="earners"></ol>
+      </section>
+
+      <p class="status" id="status" role="status" hidden></p>
+    </main>
+    <script src="app.js?v=5raids"></script>
+  </body>
+</html>
