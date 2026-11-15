@@ -2,9 +2,9 @@ const GRAPHQL_URL = "https://api.drscovy.com/graphql";
 const POLL_MS = 15 * 1000;
 const CLAIM_WINDOW_MS = 5 * 60 * 1000;
 const RANK_WINDOW_MS = 4 * 60 * 60 * 1000;
-const RANK_LIMIT = 5;
+const RANK_LIMIT = 7;
 
-const RAID_LIMIT = 5;
+const RAID_LIMIT = 7;
 
 const GET_RECENT_RAIDS = `
   query RecentRaids {
